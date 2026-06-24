@@ -80,16 +80,25 @@
 
         <div class="colecciones-grid">
 
-            <article class="coleccion">
-                <h3>Atlántica</h3>
+            <article class="coleccion"  data-coleccion="charms">
+                <div class="coleccion-overlay">
+                    <h3>Charms</h3>
+                </div>
+                <img
+                        src="img/LLAVERO.jpg"
+                        alt="Llavero"
+                        class="producto-img">
             </article>
 
-            <article class="coleccion">
-                <h3>Marea</h3>
-            </article>
-
-            <article class="coleccion">
-                <h3>Brisa</h3>
+            <article class="coleccion" data-coleccion="fitlipinos">
+                <div class="coleccion-overlay">
+                    <h3>W/ fitlipinos</h3>
+                </div>
+                <img
+                        src="img/HEARTS.jpg"
+                        alt="Hearts"
+                        class="producto-img">
+                
             </article>
 
         </div>
@@ -107,21 +116,86 @@
         <div class="productos-grid">
 
             <article class="producto">
-                <h3>Collar Concha</h3>
-                <p>24,95 €</p>
+                <img
+                        src="img/LAZO.jpg"
+                        alt="Lazo"
+                        class="producto-img">
+                <h3>Collar Lazo</h3>
+                <p>6 €</p>
             </article>
 
             <article class="producto">
-                <h3>Pendientes Brisa</h3>
-                <p>19,95 €</p>
+                <img
+                        src="img/PIEDRAS.jpg"
+                        alt="PIEDRAS"
+                        class="producto-img">
+                <h3>Collar Piedras Naturales</h3>
+                <p>16 €</p>
+                <p>Pieza única</p>
             </article>
 
             <article class="producto">
-                <h3>Anillo Marea</h3>
-                <p>22,95 €</p>
+                <img
+                        src="img/CONPERLA.jpg"
+                        alt="ConPerla"
+                        class="producto-img">
+
+                <h3>Pulsera Perla</h3>
+                <p>4 € /ud</p>
+                <p>Perlas naturales</p>
+            </article>
+
+            <article class="producto">
+                <img
+                        src="img/DOBLES.jpg"
+                        alt="DOBLES"
+                        class="producto-img">
+
+                <h3>Pulsera Doble</h3>
+                <p>6 € /ud</p>
+            </article>
+
+            <article class="producto">
+                <img
+                        src="img/ANILLObASIC.jpg"
+                        alt="Anillo Floral"
+                        class="producto-img">
+                <h3>Anillo Floral</h3>
+                <p>4 €</p>
+                <p>Colores personalizables</p>
+            </article>
+
+            <article class="producto" data-coleccion="charms">
+                <img
+                        src="img/LLAVrOSA.jpg"
+                        alt="CHROSA"
+                        class="producto-img">
+                <h3>Charm Rosa</h3>
+                <p>8 €</p>
+            </article>
+
+            <article class="producto" data-coleccion="charms">
+                <img
+                        src="img/LLAVnARANJA.jpg"
+                        alt="CHNARANJA"
+                        class="producto-img">
+                <h3>Charm Naranja</h3>
+                <p>8 €</p>
+            </article>
+
+            <article class="producto" data-coleccion="charms">
+                <img
+                        src="img/LLAVrOJO.jpg"
+                        alt="CHROJO"
+                        class="producto-img">
+                <h3>Charm Rojo</h3>
+                <p>8 €</p>
             </article>
 
         </div>
+        <button id="mostrar-todos">
+            Ver todos los productos
+        </button>
 
     </section>
 
@@ -208,7 +282,7 @@
             <div class="sobre-imagen">
 
                 <img
-                    src="img/pragueira.jpg"
+                    src="img/playa.jpg"
                     alt="Playa Pragueira">
 
             </div>
@@ -261,6 +335,14 @@
         </p>
 
     </footer>
+
+    <div id="image-modal">
+
+        <span id="close-modal">&times;</span>
+
+        <img id="modal-img">
+
+    </div>
 
     <script src="js/main.js"></script>
 
