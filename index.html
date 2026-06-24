@@ -2,25 +2,37 @@
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Pragueira Jewels</title>
 
     <link rel="stylesheet" href="css/styles.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Viaoda+Libre&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
 
 <body>
 
-    <!-- BOTÓN MENÚ -->
+    <!-- ==========================================
+         BOTÓN MENÚ
+    ========================================== -->
 
-    <button id="menu-btn">☰</button>
+    <button id="menu-btn">MENU</button>
 
-    <!-- MENÚ DESPLEGABLE -->
+    <!-- ==========================================
+         OVERLAY
+    ========================================== -->
+
+    <div id="overlay"></div>
+
+    <!-- ==========================================
+         MENÚ LATERAL
+    ========================================== -->
 
     <nav id="side-menu">
 
@@ -29,25 +41,38 @@
         <a href="#inicio">Inicio</a>
         <a href="#colecciones">Colecciones</a>
         <a href="#productos">Productos</a>
+        <a href="#como-pedir">Cómo pedir</a>
         <a href="#sobre">Sobre Pragueira</a>
         <a href="#contacto">Contacto</a>
 
     </nav>
 
-    <!-- HERO -->
+    <!-- ==========================================
+         HERO SECTION
+    ========================================== -->
 
     <section id="inicio" class="hero">
 
-        <h1>PRAGUEIRA JEWELS</h1>
+        <div class="hero-content">
 
-        <p>
-            Joyas inspiradas en el mar,
-            hechas para durar.
-        </p>
+            <h1>PRAGUEIRA JEWELS</h1>
+
+            <p>
+                Joyas inspiradas en el mar,
+                hechas para durar.
+            </p>
+
+            <a href="#colecciones" class="hero-btn">
+                Ver colecciones
+            </a>
+
+        </div>
 
     </section>
 
-    <!-- COLECCIONES -->
+    <!-- ==========================================
+         COLECCIONES
+    ========================================== -->
 
     <section id="colecciones">
 
@@ -71,7 +96,9 @@
 
     </section>
 
-    <!-- PRODUCTOS -->
+    <!-- ==========================================
+         PRODUCTOS
+    ========================================== -->
 
     <section id="productos">
 
@@ -98,28 +125,142 @@
 
     </section>
 
-    <!-- SOBRE -->
+    <!-- ==========================================
+         CÓMO PEDIR
+    ========================================== -->
 
-    <section id="sobre">
+    <section id="como-pedir">
 
-        <h2>Sobre Pragueira</h2>
+        <h2>Cómo realizar tu pedido</h2>
 
-        <p>
-            Pragueira Jewels nace de la inspiración del mar,
-            la costa gallega y la belleza de lo artesanal.
-        </p>
+        <div class="pedido-container">
+
+            <div class="pedido-card">
+
+                <h3><b>1. Elige tu joya</b></h3>
+
+                <p>
+                    Explora las colecciones y encuentra la pieza que más te guste.
+                </p>
+
+            </div>
+
+            <div class="pedido-card">
+
+                <h3><b>2. Escríbeme por Instagram</b></h3>
+
+                <p>
+                    Los pedidos se realizan a través de mensaje directo en Instagram.
+                </p>
+
+            </div>
+
+            <div class="pedido-card">
+
+                <h3><b>3. Recibe tu pedido</b></h3>
+
+                <p>
+                    Si te encuentras en Pontevedra podemos realizar la entrega en mano. Para el resto de destinos, los pedidos se envían por correo.
+                </p>
+
+            </div>
+
+        </div>
 
     </section>
 
-    <!-- CONTACTO -->
+    <!-- ==========================================
+         SOBRE PRAGUEIRA
+    ========================================== -->
+
+    <section id="sobre">
+
+        <div class="sobre-container">
+
+            <div class="sobre-texto">
+
+                <span class="sobre-subtitulo">
+                    SOBRE PRAGUEIRA
+                </span>
+
+                <h2>
+                    Una historia que comenzó junto al mar
+                </h2>
+
+                <p>
+                    Hola, soy Noela, la persona detrás de Pragueira Jewels.
+                </p>
+
+                <p>
+                    Esta marca nació durante los veranos en Pragueira, una playa muy especial para mí que acabó dando nombre a este proyecto. Lo que comenzó como una afición creando pulseras y collares a mano fue creciendo poco a poco gracias al apoyo de familiares, amigos y todas las personas que confiaron en mis creaciones.
+                </p>
+
+                <p>
+                    Cada pieza está elaborada con dedicación, inspirada en el mar, la costa gallega y la belleza de los pequeños detalles. Mi objetivo es crear joyas sencillas, especiales y atemporales que puedan acompañarte en tu día a día.
+                </p>
+
+                <p>
+                    Además de descubrir nuestras colecciones online, también puedes encontrarnos en el Chiringuito Besadoiro, en la Playa Pragueira, un lugar que representa perfectamente el origen y la esencia de la marca.
+                </p>
+
+            </div>
+
+            <div class="sobre-imagen">
+
+                <img
+                    src="img/pragueira.jpg"
+                    alt="Playa Pragueira">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================================
+         CONTACTO
+    ========================================== -->
 
     <section id="contacto">
 
         <h2>Contacto</h2>
 
-        <p>Instagram: @pragueirajewelss</p>
+        <p>
+            Puedes escribirme directamente a través de Instagram o correo electrónico.
+        </p>
+
+        <div class="social-links">
+
+            <a href="https://instagram.com/pragueirajewelss" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="mailto:pragueira.jewels@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+        </div>
 
     </section>
+
+    <!-- ==========================================
+         FOOTER
+    ========================================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Pragueira Jewels · Todos los derechos reservados
+        </p>
+
+        <p>
+            Diseñado y desarrollado por
+            <a href="https://github.com/noelajusto03" target="_blank">
+                Noela
+            </a>
+        </p>
+
+    </footer>
 
     <script src="js/main.js"></script>
 
