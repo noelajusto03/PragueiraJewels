@@ -82,9 +82,9 @@ Se irán incorporando nuevas colecciones, productos y mejoras en la experiencia 
 
 **Noela**
 
-GitHub: https://github.com/TU-USUARIO
+GitHub: https://github.com/noelajusto03
 
-Instagram: https://instagram.com/pragueirajewels
+Instagram: https://instagram.com/pragueirajewelss
 
 ---
 
