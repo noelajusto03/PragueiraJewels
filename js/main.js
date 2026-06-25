@@ -143,3 +143,51 @@ if(mostrarTodos){
     });
 
 }
+
+/* ==========================================
+   SLIDER SOBRE PRAGUEIRA
+========================================== */
+
+const sobreSlider = document.getElementById("sobre-slider");
+
+if(sobreSlider){
+
+    const imagenes = [
+
+        "img/PLAYA.JPG",
+        "img/CASITA.JPG",
+        
+
+    ];
+
+    let indice = 0;
+
+    document.querySelector(".next").addEventListener("click", ()=>{
+
+        indice++;
+
+        if(indice >= imagenes.length){
+
+            indice = 0;
+
+        }
+
+        sobreSlider.src = imagenes[indice];
+
+    });
+
+    document.querySelector(".prev").addEventListener("click", ()=>{
+
+        indice--;
+
+        if(indice < 0){
+
+            indice = imagenes.length - 1;
+
+        }
+
+        sobreSlider.src = imagenes[indice];
+
+    });
+
+}
