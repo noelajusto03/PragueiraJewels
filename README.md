@@ -84,7 +84,7 @@ Se irán incorporando nuevas colecciones, productos y mejoras en la experiencia 
 
 GitHub: https://github.com/noelajusto03
 
-Instagram: https://instagram.com/pragueirajewelss
+Instagram: https://instagram.com/pragueira.jewelss
 
 ---
 
